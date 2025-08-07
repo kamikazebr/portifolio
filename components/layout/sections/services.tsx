@@ -25,7 +25,7 @@ const services = [
 ];
 
 export const ServicesSection = () => (
-    <section id="services" className="container py-24 sm:py-32">
+    <section id="services" className="container py-16 sm:py-20">
         <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">Serviços</h2>
             <p className="text-xl text-muted-foreground">Como posso ajudar você ou sua empresa a inovar</p>
