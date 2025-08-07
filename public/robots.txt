@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# Facebook (Open Graph)
+User-agent: facebookexternalhit/1.1
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+Sitemap: https://www.felipenovaesrocha.xyz/sitemap.xml
