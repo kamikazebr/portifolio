@@ -1,56 +1,41 @@
-# Shadcn Landing Page Template
+# Felipe Novaes Rocha - Portfolio
 
-## <a href="https://ui.shadcn.com/" target="_blank">Shadcn</a> + <a href="https://nextjs.org/" target="_blank">Next.js</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
+Personal portfolio of Felipe Novaes Rocha, developer and researcher with 30 years of experience in emerging technologies.
 
-### This is a project conversion <a href="https://github.com/leoMirandaa/shadcn-vue-landing-page" target="_blank">Shadcn-Vue</a> to NextJS
+## 🚀 Technologies
 
-![Alt text](./public/demo-img.jpg)
+- **Next.js 14** - React Framework
+- **TypeScript** - Static typing
+- **Tailwind CSS** - CSS Framework
+- **Shadcn/ui** - UI Components
+- **Framer Motion** - Animations
 
-## Sections
+## 🎯 Sections
 
-- [x] Navbar
-- [x] Sidebar(mobile)
-- [x] Hero
-- [x] Sponsors
-- [x] Benefits
-- [x] Features
-- [x] Testimonials
-- [x] Team
-- [x] Community
-- [x] Contact
-- [x] Pricing
-- [x] Frequently Asked Questions(FAQ)
-- [x] Services
-- [x] Footer
+- Hero - Main presentation
+- Timeline - Professional journey
+- Expertise - Technical specialties
+- Projects - Portfolio showcase
+- Services - Professional offerings
+- About - Personal information
+- Contact - Communication channels
 
-## Features
-
-- [x] Fully Responsive Design
-- [x] User Friendly Navigation
-- [x] Dark Mode
-
-## How to install
-
-1. Clone this repositoy:
+## 💻 Installation
 
 ```bash
-git clone https://github.com/nobruf/portifolio.git
-```
+# Clone the repository
+git clone https://github.com/felipenovaesrocha/portifolio.git
 
-2. Go into project
-
-```bash
+# Enter the directory
 cd portifolio
+
+# Install dependencies
+pnpm install
+
+# Run the project
+pnpm dev
 ```
 
-3. Install dependencies
+## 🌐 Live Demo
 
-```bash
-npm install
-```
-
-4. Run project
-
-```bash
-npm run dev
-```
+Visit the portfolio at: [felipenovaesrocha.xyz](https://www.felipenovaesrocha.xyz)

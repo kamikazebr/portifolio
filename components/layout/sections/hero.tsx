@@ -26,7 +26,7 @@ export const HeroSection = () => {
             setTextIndex((prev) => (prev + 1) % highlights.length);
         }, 3000);
         return () => clearInterval(interval);
-    }, []);
+    }, [highlights.length]);
 
     const FloatingIcon = ({ icon: Icon, className, delay }: { icon: any, className: string, delay: string }) => (
         <div className={`absolute ${className} animate-pulse`} style={{ animationDelay: delay }}>
@@ -88,7 +88,7 @@ export const HeroSection = () => {
                                 <div className="text-sm text-muted-foreground">Anos Nômade Digital</div>
                             </div>
                             <div className="text-center">
-                                <div className="text-3xl font-bold text-primary">78+</div>
+                                <div className="text-3xl font-bold text-primary">140+</div>
                                 <div className="text-sm text-muted-foreground">Dias Consecutivos no YouTube</div>
                             </div>
                         </div>

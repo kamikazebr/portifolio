@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
 import { ThemeProvider } from "@/components/layout/theme-provider";
-const inter = Inter({ subsets: ["latin"] });
+
+// Temporariamente usando fontes do sistema para evitar problemas de conexão
+// const inter = Inter({ 
+//   subsets: ["latin"],
+//   display: "swap",
+//   fallback: ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"]
+// });
 
 // Metadados são definidos em cada página específica
 
@@ -20,7 +26,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#667eea" />
         <meta name="format-detection" content="telephone=no" />
       </head>
-      <body className={cn("min-h-screen bg-background", inter.className)}>
+      <body className={cn("min-h-screen bg-background font-sans")}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

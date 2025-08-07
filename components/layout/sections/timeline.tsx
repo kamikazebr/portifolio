@@ -134,7 +134,7 @@ const timelineEvents = [
     {
         year: "2024",
         title: "Compartilhando Conhecimento",
-        description: "Recebeu 'chamado' para compartilhar conhecimentos. Co-criou 'Flir para Web3', mantém canal no YouTube com lives diárias (78+ dias consecutivos) e oferece mentoria.",
+        description: "Recebeu 'chamado' para compartilhar conhecimentos. Co-criou 'Flir para Web3', mantém canal no YouTube com lives diárias (140+ dias consecutivos) e oferece mentoria.",
         icon: <MapPin className="text-primary" size={20} />,
         type: "present"
     }
