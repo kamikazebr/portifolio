@@ -1,0 +1,349 @@
+{
+  "nav": {
+    "timeline": "Journey",
+    "expertise": "Expertise",
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "youtube": "YouTube",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "Developer & Researcher in Emerging Technologies",
+    "name": "Felipe Novaes Rocha",
+    "highlights": {
+      "experience": "30 years of experience",
+      "blockchain": "Blockchain & Web3",
+      "ai": "Artificial Intelligence",
+      "crypto": "Advanced Cryptography",
+      "nomad": "Digital Nomad for 4 years"
+    },
+    "description": "on a continuous journey: from a child prodigy at age 4 to today's tech mentor.",
+    "stats": {
+      "years": {
+        "value": "30+",
+        "label": "Years of Experience"
+      },
+      "nomad": {
+        "value": "4",
+        "label": "Years as Digital Nomad"
+      },
+      "youtube": {
+        "value": "140+",
+        "label": "Consecutive Days on YouTube"
+      }
+    },
+    "cta": {
+      "youtube": "Subscribe to YouTube Channel",
+      "github": "GitHub Repository"
+    },
+    "tagline": "Transforming complex ideas into innovative solutions for decades",
+    "imageAlt": "Felipe Novaes Rocha - Sunset",
+    "imageOverlay": "Contemplating new horizons - Where each sunset inspires new technological possibilities"
+  },
+  "timeline": {
+    "title": "My Journey",
+    "subtitle": "30 years of continuous evolution: from a child prodigy at age 4 to today's tech mentor",
+    "events": [
+      {
+        "year": "1994",
+        "title": "First Contact with Computers",
+        "description": "At age 4, started tinkering with computers and even broke one. Initial curiosity that would shape his entire trajectory."
+      },
+      {
+        "year": "1998-1999",
+        "title": "First Excel Macros",
+        "description": "Before age 10, created Excel macros for his mother using Visual Basic, though he didn't consider it programming at the time. First real contact with code."
+      },
+      {
+        "year": "2000",
+        "title": "First OCX and DLL",
+        "description": "At age 10, learned Visual Basic overnight with the book 'Learn Visual Basic in 21 Days' and created his first OCX and DLL. Started exploring Delphi and creating small games."
+      },
+      {
+        "year": "2000-2002",
+        "title": "Small Games and Math Tetris",
+        "description": "Between ages 10 and 12, developed various small games, including a math Tetris. Explored Delphi and Delphi X, consolidating programming logic applied to games."
+      },
+      {
+        "year": "2001",
+        "title": "Ragnarok Server",
+        "description": "At age 14, dove into forums to create a Ragnarok server, learning extensively about networks, databases, ports, firewalls, and DNS."
+      },
+      {
+        "year": "2002",
+        "title": "School Registration System",
+        "description": "At age 12, created a complete student registration system with photos and quick search in Visual Basic and Access to solve the problem of disorganized papers at his mother's school."
+      },
+      {
+        "year": "2005",
+        "title": "Digital Voting Booth",
+        "description": "At age 15, developed a digital voting booth for student council elections with animated graphics, real-time counting, and security systems. Used for over 10 consecutive years."
+      },
+      {
+        "year": "2006",
+        "title": "Streaming Pioneer",
+        "description": "At Jornal Cidade Itapevi, created streaming videos and live streaming prototype at city council - one year before YouTube arrived in Brazil (2007)."
+      },
+      {
+        "year": "2007",
+        "title": "Political Ad Automation",
+        "description": "At age 17, automated the creation of political campaign flyers using Photoshop scripting and Excel, transforming a manual process into an automatic one."
+      },
+      {
+        "year": "2008",
+        "title": "First Registered Job",
+        "description": "At age 18, working with Flex and J2ME, automated organization of years of data for Federal Revenue with Excel macro, transforming days of work into hours."
+      },
+      {
+        "year": "2009-2010",
+        "title": "Titan Software - Teamwork",
+        "description": "First experience in a team of programmers. Participated in creating check layouts and learned dynamic code reading by observing colleagues like Choi."
+      },
+      {
+        "year": "2010-2011",
+        "title": "Gimon - Extreme Creativity",
+        "description": "Worked with J2ME on limited devices. Recreated SQL interpreter using giant regex in RMS file and adapted ZIP compression at low level with few KB of memory."
+      },
+      {
+        "year": "2012",
+        "title": "Virtual Reception on iPad",
+        "description": "At age 22 at Sigma, helped create innovative virtual reception system on iPad for domain access control."
+      },
+      {
+        "year": "2014-2017",
+        "title": "Depression and Rebirth",
+        "description": "At age 24, faced deep depression for almost 3 years. After hitting rock bottom, 'rose from the ashes', quit addictions, and bought a van with dream of becoming a nomad."
+      },
+      {
+        "year": "2018",
+        "title": "'Fun Kids' Game in Unity",
+        "description": "Developed the 'Fun Kids' game alone in Unity with C#, competitor to Play Kids, starting with a borrowed MacBook and delivering to a team of 5+ people."
+      },
+      {
+        "year": "2019",
+        "title": "Sabbatical Year as Therapist",
+        "description": "Left programming, lived on a farm and became a therapist, discovering the value of emotional intelligence, conflict management, and group facilitation."
+      },
+      {
+        "year": "2020",
+        "title": "Blindness and Facilita Social",
+        "description": "Between ages 29-30, became blind in right eye. Following intuition, joined Facilita Social creating gamedeck platform that united technological and therapeutic knowledge."
+      },
+      {
+        "year": "2021-2023",
+        "title": "Blockchain and Nomad Life",
+        "description": "Joined Gardens (blockchain governance), evolving from $5/hour to $50/hour. Led Gardens v2 which won 1st place in 1Hive.org hackathon, while traveling through Brazil working remotely."
+      },
+      {
+        "year": "2024",
+        "title": "Sharing Knowledge",
+        "description": "Received 'calling' to share knowledge. Co-created 'Flir para Web3', maintains YouTube channel with daily lives (140+ consecutive days) and offers mentorship."
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Expertise",
+    "subtitle": "Technical areas of work and research",
+    "items": [
+      {
+        "title": "Blockchain & Web3",
+        "description": "Development of decentralized solutions, smart contracts, and digital ecosystem analysis."
+      },
+      {
+        "title": "Artificial Intelligence",
+        "description": "Implementation of AI systems for process optimization and intelligent automation."
+      },
+      {
+        "title": "Advanced Cryptography",
+        "description": "Applied research in Zero-Knowledge Proofs (ZK) and Fully Homomorphic Encryption (FHE)."
+      },
+      {
+        "title": "Security & Privacy",
+        "description": "Implementation of secure protocols for blockchain systems and decentralized applications."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A selection of the most impactful and innovative projects throughout the journey",
+    "featuredTitle": "Main Achievements",
+    "othersTitle": "Other Projects",
+    "categories": {
+      "web": "web",
+      "mobile": "mobile",
+      "game": "game",
+      "system": "system",
+      "blockchain": "blockchain",
+      "automation": "automation"
+    },
+    "buttons": {
+      "demo": "Demo",
+      "code": "Code"
+    },
+    "items": [
+      {
+        "title": "Digital Student Council Voting Booth",
+        "year": "2005",
+        "description": "Electronic voting system for student elections with advanced graphical interface and robust security.",
+        "longDescription": "Developed in Visual Basic at age 15, this digital voting booth included animated graphics, real-time vote counting, multi-layer security systems, and transparency through source code printing. The system was so successful it was used for over 10 consecutive years in student council elections.",
+        "technologies": ["Visual Basic", "Access Database", "Windows API", "Cryptography"],
+        "impact": "Used for 10+ consecutive years",
+        "teamSize": "1 developer",
+        "duration": "3 months",
+        "category": "system",
+        "featured": true
+      },
+      {
+        "title": "Pioneer Streaming System",
+        "year": "2006",
+        "description": "Live streaming prototype created one year before YouTube arrived in Brazil.",
+        "longDescription": "At Jornal Cidade Itapevi, developed a complete streaming solution that included live transmission from city council, on-demand video system, and custom Flash player. This innovation happened in 2006, a full year before YouTube arrived in Brazil in 2007.",
+        "technologies": ["PHP", "Flash", "Video Streaming", "JavaScript", "HTML/CSS"],
+        "impact": "Streaming pioneer in Brazil",
+        "teamSize": "1 developer",
+        "duration": "6 months",
+        "category": "web",
+        "featured": true
+      },
+      {
+        "title": "Fun Kids - Educational Mobile Game",
+        "year": "2018",
+        "description": "Educational game developed in Unity as a competitor to Play Kids, after period of personal recovery.",
+        "longDescription": "Developed completely alone using Unity and C#, starting with just a borrowed MacBook after overcoming deep depression. The project grew so much it was eventually handed over to a team of more than 5 people to continue. The game included multiple educational mini-games, gamified progress system, and intuitive interface for children. Represented a milestone of professional 'rebirth' after a difficult period.",
+        "technologies": ["Unity", "C#", "Game Design", "UI/UX", "Mobile Development", "MacOS"],
+        "impact": "Project handed over to team of 5+ people",
+        "teamSize": "1 → 5+ developers",
+        "duration": "8 months",
+        "category": "game",
+        "featured": true
+      },
+      {
+        "title": "Gardens v2 - Blockchain Governance",
+        "year": "2021-2023",
+        "description": "Decentralized governance platform that won 1st place in international hackathon.",
+        "longDescription": "Led the development of Gardens' second version, an innovative blockchain governance platform. The project involved smart contracts, Web3 interfaces, decentralized voting systems, and integration with multiple blockchains. Version 2.0 was so innovative it won first place in a 1Hive.org hackathon.",
+        "technologies": ["Solidity", "React", "Web3", "TypeScript", "GraphQL", "IPFS"],
+        "demoUrl": "https://gardens.1hive.org",
+        "githubUrl": "https://github.com/1Hive/gardens-v2",
+        "impact": "1st place in international hackathon",
+        "teamSize": "3-5 developers",
+        "duration": "1 year",
+        "category": "blockchain",
+        "featured": true
+      },
+      {
+        "title": "Facilita Social - Gamedeck Platform",
+        "year": "2020",
+        "description": "Platform that united technological and therapeutic knowledge in a gamified experience.",
+        "longDescription": "Creation of an innovative online gamedeck platform that combined therapeutic methodologies with technology. The system included interactive games for personal development, progress dashboards, and group facilitation tools.",
+        "technologies": ["React", "Node.js", "PostgreSQL", "Socket.io", "Game Design"],
+        "impact": "Unique fusion of therapy and technology",
+        "teamSize": "2-3 developers",
+        "duration": "6 months",
+        "category": "web"
+      },
+      {
+        "title": "Political Flyer Automation",
+        "year": "2007",
+        "description": "Automation system for mass creation of political advertising material.",
+        "longDescription": "Developed a system that completely automated the creation of political campaign flyers using advanced Photoshop scripting integrated with Excel data. The system transformed a manual process of hours into an automatic process of minutes.",
+        "technologies": ["Photoshop Scripting", "Excel VBA", "JavaScript", "Automation"],
+        "impact": "Reduced production time from hours to minutes",
+        "teamSize": "1 developer",
+        "duration": "2 weeks",
+        "category": "automation"
+      },
+      {
+        "title": "Check Layout - Titan Software",
+        "year": "2009-2010",
+        "description": "Check layout system in team environment of programmers.",
+        "longDescription": "First experience working in a team of programmers at Titan Software. Participated in creating check layout system and had significant growth observing experienced colleagues like Choi, learning advanced dynamic code reading techniques.",
+        "technologies": ["PHP", "Team Development", "Code Reading", "Layout Design", "Banking Systems"],
+        "impact": "First teamwork experience",
+        "teamSize": "Team of programmers",
+        "duration": "1 year",
+        "category": "system"
+      },
+      {
+        "title": "SQL Interpreter in J2ME - Gimon",
+        "year": "2010-2011",
+        "description": "Extreme creativity: recreated SQL interpretation on limited mobile device.",
+        "longDescription": "Worked with J2ME on phone without database, created an innovative solution using giant regex to recreate SQL command interpretation in RMS file. Adapted ZIP compression at low level to work with few kilobytes of memory, dealing with severe hardware limitations and encoding problems.",
+        "technologies": ["J2ME", "Regex", "RMS", "ZIP Compression", "Mobile Optimization"],
+        "impact": "Creative solution for extreme hardware limitations",
+        "teamSize": "1 developer",
+        "duration": "6 months",
+        "category": "mobile"
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "How I can help you or your company innovate",
+    "items": [
+      {
+        "title": "Emerging Technologies Consulting",
+        "description": "Technical advisory for companies seeking to implement innovative solutions."
+      },
+      {
+        "title": "Innovation Strategy and Applied Research",
+        "description": "Development of proof of concepts and functional prototypes."
+      },
+      {
+        "title": "Comparative Analysis of Technology Solutions",
+        "description": "Impartial evaluation of tools and platforms for specific needs."
+      },
+      {
+        "title": "Personalized Technical Mentorship",
+        "description": "Guidance for professionals wishing to deepen knowledge in cutting-edge technologies."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Felipe",
+    "badge": "Code + Emotions",
+    "paragraphs": [
+      "Felipe Novaes Rocha is a developer and researcher of emerging technologies with over 30 years of experience in digital innovation. Since age 4, he has been exploring codes and ideas, developing deep knowledge in various languages and frameworks.",
+      "Worked as a digital nomad for 4 years, developing projects remotely throughout Brazil in a KombiHome, combining remote work with adventure and self-discovery.",
+      "His language-agnostic approach allows adapting solutions for each challenge, always prioritizing efficiency and innovation. Beyond technical work, Felipe is a Therapist and Conflict Mediator, adding a unique human perspective to project and team management."
+    ],
+    "highlights": {
+      "experience": {
+        "value": "30+",
+        "label": "Years Coding"
+      },
+      "nomad": {
+        "value": "4",
+        "label": "Years Nomad"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch for consultations, partnerships or technology questions.",
+    "email": "felipenovaesrocha@gmail.com"
+  },
+  "footer": {
+    "name": "Felipe Novaes Rocha",
+    "links": {
+      "email": "E-mail",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube",
+      "github": "Github"
+    },
+    "copyright": "© 2024 Developed by Felipe Novaes Rocha. All rights reserved."
+  },
+  "metadata": {
+    "title": "Felipe Novaes Rocha - Developer & Researcher in Emerging Technologies",
+    "description": "30 years of technological journey: from first contact at age 4 to mentor and researcher in blockchain, AI and advanced cryptography. Specialist in Web3, Zero-Knowledge Proofs and innovative development.",
+    "keywords": "Felipe Novaes Rocha, developer, blockchain, AI, Web3, cryptography, zero-knowledge proofs, mentor, researcher",
+    "siteName": "Felipe Novaes Rocha - Portfolio",
+    "ogTitle": "Felipe Novaes Rocha - Developer & Researcher in Emerging Technologies",
+    "ogDescription": "30 years of technological journey: specialist in blockchain, AI, advanced cryptography and Web3. Mentor and researcher in emerging technologies.",
+    "imageAlt": "Felipe Novaes Rocha - Portfolio",
+    "twitterTitle": "Felipe Novaes Rocha - Developer & Researcher",
+    "twitterDescription": "30 years of technological journey: specialist in blockchain, AI and emerging technologies"
+  }
+}

@@ -7,17 +7,44 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-export const HeroSection = () => {
+interface HeroSectionProps {
+    dict: {
+        badge: string;
+        name: string;
+        highlights: {
+            experience: string;
+            blockchain: string;
+            ai: string;
+            crypto: string;
+            nomad: string;
+        };
+        description: string;
+        stats: {
+            years: { value: string; label: string };
+            nomad: { value: string; label: string };
+            youtube: { value: string; label: string };
+        };
+        cta: {
+            youtube: string;
+            github: string;
+        };
+        tagline: string;
+        imageAlt: string;
+        imageOverlay: string;
+    };
+}
+
+export const HeroSection = ({ dict }: HeroSectionProps) => {
     const { theme } = useTheme();
     const [mounted, setMounted] = useState(false);
     const [textIndex, setTextIndex] = useState(0);
 
     const highlights = [
-        "30 anos de experiência",
-        "Blockchain & Web3",
-        "Inteligência Artificial",
-        "Criptografia Avançada",
-        "Nômade Digital por 3,5 anos"
+        dict.highlights.experience,
+        dict.highlights.blockchain,
+        dict.highlights.ai,
+        dict.highlights.crypto,
+        dict.highlights.nomad
     ];
 
     useEffect(() => {
@@ -52,7 +79,7 @@ export const HeroSection = () => {
                     <div className="animate-in slide-in-from-top duration-1000 ease-out">
                         <Badge variant="outline" className="text-sm py-2 px-4 bg-gradient-to-r from-primary/10 to-primary/5 border-primary/20 hover:border-primary/40 transition-all duration-300">
                             <Sparkles className="w-4 h-4 mr-2" />
-                            <span>Desenvolvedor & Pesquisador em Tecnologias Emergentes</span>
+                            <span>{dict.badge}</span>
                             <Sparkles className="w-4 h-4 ml-2" />
                         </Badge>
                     </div>
@@ -61,7 +88,7 @@ export const HeroSection = () => {
                     <div className="animate-in slide-in-from-bottom duration-1200 ease-out delay-300">
                         <div className="max-w-screen-md mx-auto text-center">
                             <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-primary/80 to-primary bg-clip-text text-transparent">
-                                Felipe Novaes Rocha
+                                {dict.name}
                             </h1>
                         </div>
                     </div>
@@ -72,7 +99,7 @@ export const HeroSection = () => {
                             <span className="text-foreground font-semibold">
                                 {mounted && highlights[textIndex]}
                             </span>
-                            {" "}em jornada contínua: da criança prodígio aos 4 anos ao mentor tecnológico de hoje.
+                            {" "}{dict.description}
                         </p>
                     </div>
 
@@ -80,16 +107,16 @@ export const HeroSection = () => {
                     <div className="animate-in slide-in-from-bottom duration-1600 ease-out delay-700">
                         <div className="flex flex-wrap justify-center gap-6 py-6">
                             <div className="text-center">
-                                <div className="text-3xl font-bold text-primary">30+</div>
-                                <div className="text-sm text-muted-foreground">Anos de Experiência</div>
+                                <div className="text-3xl font-bold text-primary">{dict.stats.years.value}</div>
+                                <div className="text-sm text-muted-foreground">{dict.stats.years.label}</div>
                             </div>
                             <div className="text-center">
-                                <div className="text-3xl font-bold text-primary">3.5</div>
-                                <div className="text-sm text-muted-foreground">Anos Nômade Digital</div>
+                                <div className="text-3xl font-bold text-primary">{dict.stats.nomad.value}</div>
+                                <div className="text-sm text-muted-foreground">{dict.stats.nomad.label}</div>
                             </div>
                             <div className="text-center">
-                                <div className="text-3xl font-bold text-primary">140+</div>
-                                <div className="text-sm text-muted-foreground">Dias Consecutivos no YouTube</div>
+                                <div className="text-3xl font-bold text-primary">{dict.stats.youtube.value}</div>
+                                <div className="text-sm text-muted-foreground">{dict.stats.youtube.label}</div>
                             </div>
                         </div>
                     </div>
@@ -100,7 +127,7 @@ export const HeroSection = () => {
                             <Button className="w-full md:w-auto font-bold group/arrow bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 transform hover:scale-105 transition-all duration-300">
                                 <Link href="https://www.youtube.com/@felipenovaesrocha" target="_blank" className="flex items-center justify-center gap-2">
                                     <Youtube className="size-5 text-white" />
-                                    Inscreva-se no canal do YouTube
+                                    {dict.cta.youtube}
                                     <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
                                 </Link>
                             </Button>
@@ -114,7 +141,7 @@ export const HeroSection = () => {
                                     href="https://github.com/kamikazebr"
                                     target="_blank"
                                 >
-                                    Repositório no Github
+                                    {dict.cta.github}
                                 </Link>
                             </Button>
                         </div>
@@ -123,7 +150,7 @@ export const HeroSection = () => {
                     {/* Texto de chamada para ação */}
                     <div className="animate-in slide-in-from-bottom duration-2000 ease-out delay-1100">
                         <p className="text-sm text-muted-foreground mt-8">
-                            🚀 <span className="text-primary font-semibold">Transformando ideias complexas em soluções inovadoras</span> há décadas
+                            <span className="text-primary font-semibold">{dict.tagline}</span>
                         </p>
                     </div>
                 </div>
@@ -137,7 +164,7 @@ export const HeroSection = () => {
                             height={1200}
                             className="w-full md:w-[1200px] mx-auto rounded-lg relative leading-none flex items-center border border-t-2 border-secondary border-t-primary/30 hover:scale-[1.02] transition-transform duration-500"
                             src="/por-sol.jpg"
-                            alt="Felipe Novaes Rocha - Por do Sol"
+                            alt={dict.imageAlt}
                         />
 
                         <div className="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-background/0 via-background/50 to-background rounded-lg"></div>
@@ -145,7 +172,7 @@ export const HeroSection = () => {
                         {/* Overlay com informações adicionais */}
                         <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg flex items-end justify-center p-8">
                             <p className="text-white text-center font-semibold">
-                                🌅 Contemplando novos horizontes - Onde cada pôr do sol inspira novas possibilidades tecnológicas
+                                {dict.imageOverlay}
                             </p>
                         </div>
                     </div>

@@ -3,48 +3,31 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://www.felipenovaesrocha.xyz'
 
-    return [
-        {
-            url: baseUrl,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 1,
+    const sections = ['', '#about', '#timeline', '#expertise', '#projects', '#services', '#contact']
+
+    const enPages = sections.map(section => ({
+        url: `${baseUrl}${section}`,
+        lastModified: new Date(),
+        changeFrequency: section === '#projects' ? 'weekly' : 'monthly' as const,
+        priority: section === '' ? 1 : section === '#projects' ? 0.9 : section === '#contact' ? 0.7 : 0.8,
+        alternates: {
+            languages: {
+                pt: `${baseUrl}/pt${section}`,
+            },
         },
-        {
-            url: `${baseUrl}/#about`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
+    }))
+
+    const ptPages = sections.map(section => ({
+        url: `${baseUrl}/pt${section}`,
+        lastModified: new Date(),
+        changeFrequency: section === '#projects' ? 'weekly' : 'monthly' as const,
+        priority: section === '' ? 1 : section === '#projects' ? 0.9 : section === '#contact' ? 0.7 : 0.8,
+        alternates: {
+            languages: {
+                en: `${baseUrl}${section}`,
+            },
         },
-        {
-            url: `${baseUrl}/#timeline`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: `${baseUrl}/#expertise`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: `${baseUrl}/#projects`,
-            lastModified: new Date(),
-            changeFrequency: 'weekly',
-            priority: 0.9,
-        },
-        {
-            url: `${baseUrl}/#services`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: `${baseUrl}/#contact`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.7,
-        },
-    ]
+    }))
+
+    return [...enPages, ...ptPages]
 }

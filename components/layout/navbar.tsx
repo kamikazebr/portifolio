@@ -1,5 +1,5 @@
 "use client";
-import { Github, Menu } from "lucide-react";
+import { Github, Menu, Languages } from "lucide-react";
 import React from "react";
 import {
   Sheet,
@@ -10,82 +10,74 @@ import {
   SheetTrigger,
 } from "../ui/sheet";
 import { Separator } from "../ui/separator";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "../ui/navigation-menu";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { ToggleTheme } from "./toogle-theme";
+import type { Locale } from "@/lib/dictionaries";
+
+interface NavbarProps {
+  lang: Locale;
+}
 
 interface RouteProps {
   href: string;
   label: string;
 }
 
-interface FeatureProps {
-  title: string;
-  description: string;
-}
+const getRoutes = (lang: Locale): RouteProps[] => {
+  const routes = {
+    en: [
+      { href: "#timeline", label: "Journey" },
+      { href: "#expertise", label: "Expertise" },
+      { href: "#projects", label: "Projects" },
+      { href: "#services", label: "Services" },
+      { href: "#about", label: "About" },
+      { href: "#contact", label: "Contact" },
+    ],
+    pt: [
+      { href: "#timeline", label: "Jornada" },
+      { href: "#expertise", label: "Expertise" },
+      { href: "#projects", label: "Projetos" },
+      { href: "#services", label: "Serviços" },
+      { href: "#about", label: "Sobre" },
+      { href: "#contact", label: "Contato" },
+    ],
+  };
+  return routes[lang];
+};
 
-const routeList: RouteProps[] = [
-  {
-    href: "#timeline",
-    label: "Jornada",
-  },
-  {
-    href: "#expertise",
-    label: "Expertise",
-  },
-  {
-    href: "#projects",
-    label: "Projetos",
-  },
-  {
-    href: "#services",
-    label: "Serviços",
-  },
-  {
-    href: "#about",
-    label: "Sobre",
-  },
-  {
-    href: "#contact",
-    label: "Contato",
-  },
-];
-
-const featureList: FeatureProps[] = [
-  {
-    title: "Showcase Your Value ",
-    description: "Highlight how your product solves user problems.",
-  },
-  {
-    title: "Build Trust",
-    description:
-      "Leverages social proof elements to establish trust and credibility.",
-  },
-  {
-    title: "Capture Leads",
-    description:
-      "Make your lead capture form visually appealing and strategically.",
-  },
-];
-
-export const Navbar = () => {
+export const Navbar = ({ lang }: NavbarProps) => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const pathname = usePathname();
+  const routeList = getRoutes(lang);
+
+  // Determine the alternate language path
+  const getAlternatePath = () => {
+    if (lang === 'pt') {
+      return '/'; // Switch to English (root)
+    } else {
+      return '/pt'; // Switch to Portuguese
+    }
+  };
+
+  const LanguageSwitcher = () => (
+    <Button asChild size="sm" variant="outline" className="gap-2">
+      <Link href={getAlternatePath()}>
+        <Languages className="size-4" />
+        <span className="text-xs font-semibold">{lang === 'en' ? 'PT' : 'EN'}</span>
+      </Link>
+    </Button>
+  );
+
   return (
     <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
-      <Link href="/" className="font-bold text-lg flex items-center">
+      <Link href={lang === 'en' ? '/' : '/pt'} className="font-bold text-lg flex items-center">
         Felipe Novaes Rocha
       </Link>
       {/* <!-- Mobile --> */}
-      <div className="flex items-center lg:hidden">
+      <div className="flex items-center gap-2 lg:hidden">
+        <LanguageSwitcher />
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
             <Menu
@@ -101,7 +93,7 @@ export const Navbar = () => {
             <div>
               <SheetHeader className="mb-4 ml-4">
                 <SheetTitle className="flex items-center">
-                  <Link href="/" className="flex items-center">
+                  <Link href={lang === 'en' ? '/' : '/pt'} className="flex items-center">
                     Felipe Novaes Rocha
                   </Link>
                 </SheetTitle>
@@ -127,7 +119,6 @@ export const Navbar = () => {
 
             <SheetFooter className="flex-col sm:flex-col justify-start items-start">
               <Separator className="mb-2" />
-
               <ToggleTheme />
             </SheetFooter>
           </SheetContent>
@@ -146,7 +137,8 @@ export const Navbar = () => {
         </Button>
       </nav>
 
-      <div className="hidden lg:flex">
+      <div className="hidden lg:flex gap-2 items-center">
+        <LanguageSwitcher />
         <ToggleTheme />
         <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
           <Link

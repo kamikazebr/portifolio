@@ -1,51 +1,21 @@
-"use client";
-import {
-    Card,
-    CardContent,
-    CardFooter,
-    CardHeader,
-} from "@/components/ui/card";
-import { Building2, Clock, Mail, Phone } from "lucide-react";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
-import { zodResolver } from "@hookform/resolvers/zod";
-import {
-    Form,
-    FormControl,
-    FormField,
-    FormItem,
-    FormLabel,
-    FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-} from "@/components/ui/select";
-import { Textarea } from "@/components/ui/textarea";
+interface ContactSectionProps {
+    dict: {
+        title: string;
+        subtitle: string;
+        email: string;
+    };
+}
 
-const formSchema = z.object({
-    firstName: z.string().min(2).max(255),
-    lastName: z.string().min(2).max(255),
-    email: z.string().email(),
-    subject: z.string().min(2).max(255),
-    message: z.string(),
-});
-
-export const ContactSection = () => {
+export const ContactSection = ({ dict }: ContactSectionProps) => {
     return (
         <section id="contact" className="container py-16 sm:py-20">
             <div className="max-w-2xl mx-auto text-center space-y-6">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">Contato</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">{dict.title}</h2>
                 <p className="text-xl text-muted-foreground mb-8">
-                    Entre em contato para consultorias, parcerias ou dúvidas sobre tecnologia.
+                    {dict.subtitle}
                 </p>
                 <div className="flex flex-col items-center gap-4">
-                    <a href="mailto:felipenovaesrocha@gmail.com" className="text-primary hover:underline text-lg">felipenovaesrocha@gmail.com</a>
+                    <a href={`mailto:${dict.email}`} className="text-primary hover:underline text-lg">{dict.email}</a>
                     <a href="https://www.linkedin.com/in/felipenovaesrocha/" target="_blank" className="text-primary hover:underline text-lg">LinkedIn</a>
                     <a href="https://www.youtube.com/@felipenovaesrocha" target="_blank" className="text-primary hover:underline text-lg">YouTube</a>
                 </div>

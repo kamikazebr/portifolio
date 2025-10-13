@@ -1,0 +1,349 @@
+{
+  "nav": {
+    "timeline": "Jornada",
+    "expertise": "Expertise",
+    "projects": "Projetos",
+    "services": "Serviços",
+    "about": "Sobre",
+    "contact": "Contato",
+    "youtube": "YouTube",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "Desenvolvedor & Pesquisador em Tecnologias Emergentes",
+    "name": "Felipe Novaes Rocha",
+    "highlights": {
+      "experience": "30 anos de experiência",
+      "blockchain": "Blockchain & Web3",
+      "ai": "Inteligência Artificial",
+      "crypto": "Criptografia Avançada",
+      "nomad": "Nômade Digital por 4 anos"
+    },
+    "description": "em jornada contínua: da criança prodígio aos 4 anos ao mentor tecnológico de hoje.",
+    "stats": {
+      "years": {
+        "value": "30+",
+        "label": "Anos de Experiência"
+      },
+      "nomad": {
+        "value": "4",
+        "label": "Anos Nômade Digital"
+      },
+      "youtube": {
+        "value": "140+",
+        "label": "Dias Consecutivos no YouTube"
+      }
+    },
+    "cta": {
+      "youtube": "Inscreva-se no canal do YouTube",
+      "github": "Repositório no Github"
+    },
+    "tagline": "Transformando ideias complexas em soluções inovadoras há décadas",
+    "imageAlt": "Felipe Novaes Rocha - Por do Sol",
+    "imageOverlay": "Contemplando novos horizontes - Onde cada pôr do sol inspira novas possibilidades tecnológicas"
+  },
+  "timeline": {
+    "title": "Minha Jornada",
+    "subtitle": "30 anos de evolução contínua: da criança prodígio aos 4 anos ao mentor tecnológico de hoje",
+    "events": [
+      {
+        "year": "1994",
+        "title": "Primeiro Contato com Computadores",
+        "description": "Aos 4 anos, começou a mexer em computadores e chegou até a quebrar um. Curiosidade inicial que moldaria toda sua trajetória."
+      },
+      {
+        "year": "1998-1999",
+        "title": "Primeiras Macros no Excel",
+        "description": "Antes dos 10 anos, fez macros no Excel para sua mãe usando Visual Basic, embora não considerasse isso programação na época. Primeiro contato real com código."
+      },
+      {
+        "year": "2000",
+        "title": "Primeiro OCX e DLL",
+        "description": "Aos 10 anos, aprendeu Visual Basic em uma noite com o livro 'Aprendo Visual Basic em 21 dias' e criou seu primeiro OCX e DLL. Começou a explorar Delphi e criar pequenos jogos."
+      },
+      {
+        "year": "2000-2002",
+        "title": "Pequenos Jogos e Tetris Matemático",
+        "description": "Entre 10 e 12 anos, desenvolveu diversos pequenos jogos, incluindo um Tetris de matemática. Explorou Delphi e Delphi X, consolidando lógica de programação aplicada a jogos."
+      },
+      {
+        "year": "2001",
+        "title": "Servidor de Ragnarok",
+        "description": "Aos 14 anos, mergulhou em fóruns para criar servidor de Ragnarok, aprendendo extensivamente sobre redes, banco de dados, portas, firewall e DNS."
+      },
+      {
+        "year": "2002",
+        "title": "Sistema de Cadastro Escolar",
+        "description": "Aos 12 anos, criou um sistema completo de cadastro de alunos com fotos e busca rápida em Visual Basic e Access para resolver o problema de papéis desorganizados na escola da mãe."
+      },
+      {
+        "year": "2005",
+        "title": "Urna Digital Grêmio Estudantil",
+        "description": "Aos 15 anos, desenvolveu uma urna digital para eleição do grêmio estudantil com gráficos animados, contagem em tempo real e sistemas de segurança. Utilizada por mais de 10 anos consecutivos."
+      },
+      {
+        "year": "2006",
+        "title": "Pioneiro em Streaming",
+        "description": "No Jornal Cidade Itapevi, criou vídeos em stream e protótipo de streaming ao vivo na câmara municipal - um ano antes do YouTube chegar ao Brasil (2007)."
+      },
+      {
+        "year": "2007",
+        "title": "Automação Publicitária",
+        "description": "Aos 17 anos, automatizou a criação de 'santinhos' políticos usando scripting no Photoshop e Excel, transformando processo manual em automático."
+      },
+      {
+        "year": "2008",
+        "title": "Primeiro Emprego Registrado",
+        "description": "Aos 18 anos, trabalhando com Flex e J2ME, automatizou organização de anos de dados para Receita Federal com macro no Excel, transformando dias de trabalho em horas."
+      },
+      {
+        "year": "2009-2010",
+        "title": "Titan Software - Trabalho em Equipe",
+        "description": "Primeira experiência em time de programadores. Participou da criação de layout para cheques e aprendeu leitura dinâmica de código observando colegas como Choi."
+      },
+      {
+        "year": "2010-2011",
+        "title": "Gimon - Criatividade Extrema",
+        "description": "Trabalhou com J2ME em dispositivos limitados. Recriou interpretador SQL usando expressão regular gigante em arquivo RMS e adaptou compressão ZIP em baixo nível com poucos KB de memória."
+      },
+      {
+        "year": "2012",
+        "title": "Portaria Virtual no iPad",
+        "description": "Aos 22 anos na Sigma, ajudou a criar sistema inovador de portaria virtual no iPad para controle de acesso de domínios."
+      },
+      {
+        "year": "2014-2017",
+        "title": "Depressão e Renascimento",
+        "description": "Aos 24 anos, enfrentou depressão profunda de quase 3 anos. Após tocar o fundo do poço, 'renasceu das cinzas', largou vícios e comprou uma Kombi com sonho de se tornar nômade."
+      },
+      {
+        "year": "2018",
+        "title": "Jogo 'Fun Kids' em Unity",
+        "description": "Desenvolveu sozinho o jogo 'Fun Kids' em Unity com C#, concorrente do Play Kids, começando com MacBook emprestado e entregando para equipe de 5+ pessoas."
+      },
+      {
+        "year": "2019",
+        "title": "Ano Sabático como Terapeuta",
+        "description": "Largou a programação, morou em sítio e se tornou terapeuta, descobrindo o valor da inteligência emocional, gestão de conflitos e facilitação em grupo."
+      },
+      {
+        "year": "2020",
+        "title": "Cegueira e Facilita Social",
+        "description": "Entre 29-30 anos, ficou cego do olho direito. Seguindo intuição, ingressou na Facilita Social criando plataforma de gamedeck que unia conhecimentos tecnológicos e terapêuticos."
+      },
+      {
+        "year": "2021-2023",
+        "title": "Blockchain e Vida Nômade",
+        "description": "Ingressou na Gardens (governança blockchain), evoluindo de $5/hora para $50/hora. Liderou Gardens v2 que ganhou 1º lugar em hackathon da 1Hive.org, enquanto viajava pelo Brasil trabalhando remotamente."
+      },
+      {
+        "year": "2024",
+        "title": "Compartilhando Conhecimento",
+        "description": "Recebeu 'chamado' para compartilhar conhecimentos. Co-criou 'Flir para Web3', mantém canal no YouTube com lives diárias (140+ dias consecutivos) e oferece mentoria."
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Expertise",
+    "subtitle": "Áreas técnicas de atuação e pesquisa",
+    "items": [
+      {
+        "title": "Blockchain & Web3",
+        "description": "Desenvolvimento de soluções descentralizadas, smart contracts e análise de ecossistemas digitais."
+      },
+      {
+        "title": "Inteligência Artificial",
+        "description": "Implementação de sistemas de IA para otimização de processos e automação inteligente."
+      },
+      {
+        "title": "Criptografia Avançada",
+        "description": "Pesquisa aplicada em Zero-Knowledge Proofs (ZK) e Fully Homomorphic Encryption (FHE)."
+      },
+      {
+        "title": "Segurança & Privacidade",
+        "description": "Implementação de protocolos seguros para sistemas blockchain e aplicações descentralizadas."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projetos em Destaque",
+    "subtitle": "Uma seleção dos projetos mais impactantes e inovadores ao longo da jornada",
+    "featuredTitle": "Principais Realizações",
+    "othersTitle": "Outros Projetos",
+    "categories": {
+      "web": "web",
+      "mobile": "mobile",
+      "game": "game",
+      "system": "sistema",
+      "blockchain": "blockchain",
+      "automation": "automação"
+    },
+    "buttons": {
+      "demo": "Demo",
+      "code": "Código"
+    },
+    "items": [
+      {
+        "title": "Urna Digital Grêmio Estudantil",
+        "year": "2005",
+        "description": "Sistema de votação eletrônica para eleições estudantis com interface gráfica avançada e segurança robusta.",
+        "longDescription": "Desenvolvida em Visual Basic aos 15 anos, esta urna digital incluía gráficos animados, contagem de votos em tempo real, sistemas de segurança multicamadas e transparência através da impressão do código-fonte. O sistema foi tão bem sucedido que foi utilizado por mais de 10 anos consecutivos nas eleições do grêmio estudantil.",
+        "technologies": ["Visual Basic", "Access Database", "Windows API", "Criptografia"],
+        "impact": "Utilizada por 10+ anos consecutivos",
+        "teamSize": "1 desenvolvedor",
+        "duration": "3 meses",
+        "category": "system",
+        "featured": true
+      },
+      {
+        "title": "Sistema de Streaming Pioneiro",
+        "year": "2006",
+        "description": "Protótipo de streaming ao vivo criado um ano antes do YouTube chegar ao Brasil.",
+        "longDescription": "No Jornal Cidade Itapevi, desenvolveu uma solução completa de streaming que incluía transmissão ao vivo da câmara municipal, sistema de vídeos sob demanda e player customizado em Flash. Esta inovação aconteceu em 2006, um ano inteiro antes do YouTube chegar ao Brasil em 2007.",
+        "technologies": ["PHP", "Flash", "Video Streaming", "JavaScript", "HTML/CSS"],
+        "impact": "Pioneiro em streaming no Brasil",
+        "teamSize": "1 desenvolvedor",
+        "duration": "6 meses",
+        "category": "web",
+        "featured": true
+      },
+      {
+        "title": "Fun Kids - Jogo Educativo Mobile",
+        "year": "2018",
+        "description": "Jogo educativo desenvolvido em Unity como concorrente do Play Kids, após período de recuperação pessoal.",
+        "longDescription": "Desenvolvido completamente sozinho usando Unity e C#, começando apenas com um MacBook emprestado após superar depressão profunda. O projeto cresceu tanto que eventualmente foi entregue para uma equipe de mais de 5 pessoas para dar continuidade. O jogo incluía múltiplos mini-games educativos, sistema de progresso gamificado e interface intuitiva para crianças. Representou um marco de 'renascimento' profissional após período difícil.",
+        "technologies": ["Unity", "C#", "Game Design", "UI/UX", "Mobile Development", "MacOS"],
+        "impact": "Projeto entregue para equipe de 5+ pessoas",
+        "teamSize": "1 → 5+ desenvolvedores",
+        "duration": "8 meses",
+        "category": "game",
+        "featured": true
+      },
+      {
+        "title": "Gardens v2 - Governança Blockchain",
+        "year": "2021-2023",
+        "description": "Plataforma de governança descentralizada que ganhou 1º lugar em hackathon internacional.",
+        "longDescription": "Liderou o desenvolvimento da segunda versão da Gardens, uma plataforma inovadora de governança blockchain. O projeto envolveu smart contracts, interfaces Web3, sistemas de votação descentralizada e integração com múltiplas blockchains. A versão 2.0 foi tão inovadora que ganhou o primeiro lugar em um hackathon da 1Hive.org.",
+        "technologies": ["Solidity", "React", "Web3", "TypeScript", "GraphQL", "IPFS"],
+        "demoUrl": "https://gardens.1hive.org",
+        "githubUrl": "https://github.com/1Hive/gardens-v2",
+        "impact": "1º lugar em hackathon internacional",
+        "teamSize": "3-5 desenvolvedores",
+        "duration": "1 ano",
+        "category": "blockchain",
+        "featured": true
+      },
+      {
+        "title": "Facilita Social - Gamedeck Platform",
+        "year": "2020",
+        "description": "Plataforma que unia conhecimentos tecnológicos e terapêuticos em uma experiência gamificada.",
+        "longDescription": "Criação de uma plataforma inovadora de gamedeck online que combinava metodologias terapêuticas com tecnologia. O sistema incluía jogos interativos para desenvolvimento pessoal, dashboards de progresso e ferramentas de facilitação em grupo.",
+        "technologies": ["React", "Node.js", "PostgreSQL", "Socket.io", "Game Design"],
+        "impact": "Fusão única de terapia e tecnologia",
+        "teamSize": "2-3 desenvolvedores",
+        "duration": "6 meses",
+        "category": "web"
+      },
+      {
+        "title": "Automação de Santinhos Políticos",
+        "year": "2007",
+        "description": "Sistema de automação para criação em massa de material publicitário político.",
+        "longDescription": "Desenvolveu um sistema que automatizava completamente a criação de 'santinhos' políticos usando scripting avançado no Photoshop integrado com dados do Excel. O sistema transformou um processo manual de horas em um processo automático de minutos.",
+        "technologies": ["Photoshop Scripting", "Excel VBA", "JavaScript", "Automation"],
+        "impact": "Reduziu tempo de produção de horas para minutos",
+        "teamSize": "1 desenvolvedor",
+        "duration": "2 semanas",
+        "category": "automation"
+      },
+      {
+        "title": "Layout para Cheques - Titan Software",
+        "year": "2009-2010",
+        "description": "Sistema de layout para cheques em ambiente de equipe de programadores.",
+        "longDescription": "Primeira experiência trabalhando em um time de programadores na Titan Software. Participou da criação de sistema de layout para cheques e teve crescimento significativo observando colegas experientes como Choi, aprendendo técnicas avançadas de leitura dinâmica de código.",
+        "technologies": ["PHP", "Team Development", "Code Reading", "Layout Design", "Banking Systems"],
+        "impact": "Primeira experiência de trabalho em equipe",
+        "teamSize": "Equipe de programadores",
+        "duration": "1 ano",
+        "category": "system"
+      },
+      {
+        "title": "Interpretador SQL em J2ME - Gimon",
+        "year": "2010-2011",
+        "description": "Criatividade extrema: recriou interpretação de SQL em dispositivo móvel limitado.",
+        "longDescription": "Trabalhou com J2ME em celular sem banco de dados, criou uma solução inovadora usando expressão regular gigante para recriar interpretação de comandos SQL em arquivo RMS. Adaptou compressão ZIP em baixo nível para funcionar com poucos kilobytes de memória, lidando com severas limitações de hardware e problemas de codificação.",
+        "technologies": ["J2ME", "Regex", "RMS", "ZIP Compression", "Mobile Optimization"],
+        "impact": "Solução criativa para limitações extremas de hardware",
+        "teamSize": "1 desenvolvedor",
+        "duration": "6 meses",
+        "category": "mobile"
+      }
+    ]
+  },
+  "services": {
+    "title": "Serviços",
+    "subtitle": "Como posso ajudar você ou sua empresa a inovar",
+    "items": [
+      {
+        "title": "Consultoria em Tecnologias Emergentes",
+        "description": "Assessoria técnica para empresas que buscam implementar soluções inovadoras."
+      },
+      {
+        "title": "Estratégia de Inovação e Pesquisa Aplicada",
+        "description": "Desenvolvimento de provas de conceito e protótipos funcionais."
+      },
+      {
+        "title": "Análise Comparativa de Soluções Tecnológicas",
+        "description": "Avaliação imparcial de ferramentas e plataformas para necessidades específicas."
+      },
+      {
+        "title": "Mentoria Técnica Personalizada",
+        "description": "Orientação para profissionais que desejam aprofundar conhecimentos em tecnologias de ponta."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre Felipe",
+    "badge": "💻❤️ Code + Emotions",
+    "paragraphs": [
+      "Felipe Novaes Rocha é desenvolvedor e pesquisador de tecnologias emergentes com mais de 30 anos de experiência em inovação digital. Desde os 4 anos, explora códigos e ideias, desenvolvendo profundo conhecimento em diversas linguagens e frameworks.",
+      "Atuou como nômade digital por 4 anos, desenvolvendo projetos remotamente pelo Brasil em uma KombiHome, combinando trabalho remoto com aventura e autoconhecimento.",
+      "Sua abordagem agnóstica em linguagens permite adaptar soluções para cada desafio, sempre priorizando eficiência e inovação. Além da atuação técnica, Felipe é Terapeuta e Mediador de Conflitos, agregando uma perspectiva humana única à gestão de projetos e equipes."
+    ],
+    "highlights": {
+      "experience": {
+        "value": "30+",
+        "label": "Anos Codando"
+      },
+      "nomad": {
+        "value": "4",
+        "label": "Anos Nômade"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Entre em contato para consultorias, parcerias ou dúvidas sobre tecnologia.",
+    "email": "felipenovaesrocha@gmail.com"
+  },
+  "footer": {
+    "name": "Felipe Novaes Rocha",
+    "links": {
+      "email": "E-mail",
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube",
+      "github": "Github"
+    },
+    "copyright": "© 2024 Desenvolvido por Felipe Novaes Rocha. Todos os direitos reservados."
+  },
+  "metadata": {
+    "title": "Felipe Novaes Rocha - Desenvolvedor & Pesquisador em Tecnologias Emergentes",
+    "description": "30 anos de jornada tecnológica: do primeiro contato aos 4 anos até mentor e pesquisador em blockchain, IA e criptografia avançada. Especialista em Web3, Zero-Knowledge Proofs e desenvolvimento inovador.",
+    "keywords": "Felipe Novaes Rocha, desenvolvedor, blockchain, IA, Web3, criptografia, zero-knowledge proofs, mentor, pesquisador",
+    "siteName": "Felipe Novaes Rocha - Portfólio",
+    "ogTitle": "Felipe Novaes Rocha - Desenvolvedor & Pesquisador em Tecnologias Emergentes",
+    "ogDescription": "30 anos de jornada tecnológica: especialista em blockchain, IA, criptografia avançada e Web3. Mentor e pesquisador em tecnologias emergentes.",
+    "imageAlt": "Felipe Novaes Rocha - Portfólio",
+    "twitterTitle": "Felipe Novaes Rocha - Desenvolvedor & Pesquisador",
+    "twitterDescription": "30 anos de jornada tecnológica: especialista em blockchain, IA e tecnologias emergentes"
+  }
+}
