@@ -5,10 +5,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const sections = ['', '#about', '#timeline', '#expertise', '#projects', '#services', '#contact']
 
-    const enPages = sections.map(section => ({
+    const enPages: MetadataRoute.Sitemap = sections.map(section => ({
         url: `${baseUrl}${section}`,
         lastModified: new Date(),
-        changeFrequency: section === '#projects' ? 'weekly' : 'monthly' as const,
+        changeFrequency: (section === '#projects' ? 'weekly' : 'monthly') as 'weekly' | 'monthly',
         priority: section === '' ? 1 : section === '#projects' ? 0.9 : section === '#contact' ? 0.7 : 0.8,
         alternates: {
             languages: {
@@ -17,10 +17,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
     }))
 
-    const ptPages = sections.map(section => ({
+    const ptPages: MetadataRoute.Sitemap = sections.map(section => ({
         url: `${baseUrl}/pt${section}`,
         lastModified: new Date(),
-        changeFrequency: section === '#projects' ? 'weekly' : 'monthly' as const,
+        changeFrequency: (section === '#projects' ? 'weekly' : 'monthly') as 'weekly' | 'monthly',
         priority: section === '' ? 1 : section === '#projects' ? 0.9 : section === '#contact' ? 0.7 : 0.8,
         alternates: {
             languages: {
