@@ -1,6 +1,6 @@
 # Felipe Novaes Rocha - Portfolio
 
-Personal portfolio of Felipe Novaes Rocha, developer and researcher with 30 years of experience in emerging technologies.
+Personal portfolio of Felipe Novaes Rocha, developer and researcher with 18 years of professional experience in emerging technologies.
 
 ## 🚀 Technologies
 
